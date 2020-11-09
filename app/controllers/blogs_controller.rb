@@ -3,7 +3,6 @@ class BlogsController < ApplicationController
   def index
     @blogs = Blog.all
   end
-  #render :new が省略されている。
   def new
     @blog = Blog.new
   end
